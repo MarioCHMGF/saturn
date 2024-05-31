@@ -6,8 +6,8 @@
 #' @export
 
 saturn = function(show=TRUE){
-if(show==TRUE){
-cat(" \n
+	if(show==TRUE){
+		cat(" \n
                                         &@\n                                      
                                 @@@@@@@@@@@@@@@@@@#\n                             
                             @@@@@@@@@@@@@@@@@@@@@@@@@@\n                          
@@ -26,7 +26,8 @@ cat(" \n
                                   @@@@@@@@@@@@@@\n
                                   ")
                                   }
-                                  else {
+                                  else 
+                                  {
                                   print("Have a nice life. I am sorry.")
                                   }
                                  }
